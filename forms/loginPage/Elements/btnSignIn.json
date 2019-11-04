@@ -36,7 +36,7 @@
   "mRight": "", 
   "mTop": "", 
   "onclick": "", 
-  "onmousedown": "", 
+  "onmousedown": "btnSignIn.onmousedown()", 
   "onmousemove": "", 
   "onmouseout": "", 
   "onmouseup": "", 
