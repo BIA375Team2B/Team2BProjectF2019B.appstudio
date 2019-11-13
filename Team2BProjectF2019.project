@@ -21,6 +21,14 @@
             "loginPage", 
             "loginPage.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "signUpPage", 
+            "signUpPage.json"
+          ]
         }
       ], 
       "configxml": null, 
