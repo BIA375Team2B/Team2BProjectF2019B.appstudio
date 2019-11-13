@@ -9,7 +9,71 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "imgCreightonLogo1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "inptFirstName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "inptLastName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "inptEmail.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "inptGradYear.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "inptMajor.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "btnAddAccount.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 

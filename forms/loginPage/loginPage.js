@@ -13,8 +13,6 @@ btnSignIn.onclick=function(){
       NSB.MsgBox("Error Connection Not Made: " + req1.status + " readystate " + req1.readyState + " status text " + req1.statusText)
     }
 }
-<<<<<<< Updated upstream
-=======
 
 btnSignUp.onclick=function(){
     req1 = Ajax("https://radlab.creighton.edu/appStudio/authLDAP.php", "POST", "j_username=" + inptUser.value + "&j_password=" + inptPass.value);
@@ -29,4 +27,3 @@ btnSignUp.onclick=function(){
       NSB.MsgBox("Error Connection Not Made: " + req1.status + " readystate " + req1.readyState + " status text " + req1.statusText)
     }
 }
->>>>>>> Stashed changes
