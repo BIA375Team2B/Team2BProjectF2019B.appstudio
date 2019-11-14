@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "btnSignIn", 
-  "left": 29, 
+  "left": 130, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -61,6 +61,6 @@
   "style": "", 
   "toggleControl": "", 
   "top": 360, 
-  "value": "Sign In", 
+  "value": "Submit", 
   "width": "auto"
 }

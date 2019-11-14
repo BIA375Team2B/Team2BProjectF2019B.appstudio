@@ -72,6 +72,15 @@
         "Elements", 
         "btnAddAccount.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "inptNetID.json"
+      ]
     }
   ], 
   "class": "", 

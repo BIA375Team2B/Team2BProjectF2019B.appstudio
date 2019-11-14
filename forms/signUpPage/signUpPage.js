@@ -1,10 +1,11 @@
 
 btnAddAccount.onclick=function(){
-  let queryAdd = "INSERT INTO students VALUES("inptFirstName.value", "inptLastName.value", "inptEmail.value", "inptGradYear.value", "inptMajor.value")";
-  req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ekr74869&pass=Boolarina18%&database=ekr74869&query=" + query)
+  let queryAdd = "INSERT INTO students VALUES("inptNetID.value", "inptFirstName.value", "inptLastName.value", "inptEmail.value", "inptGradYear.value", "inptMajor.value")";
+  req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ekr74869&pass=Boolarina18%&database=375groupb2&query=" + query)
   if (req1.status == 200) {
     if (req1.status == 500) {
-     alert("You're account has been added!")
+      var result = JSON.parse(req1.responseText)
+      NSB.MsgBox("You have successfully added your account!")
      ChangeForm(HomeScreen)
    } else 
      alert("Error: Your information wasn't able to be added.")
