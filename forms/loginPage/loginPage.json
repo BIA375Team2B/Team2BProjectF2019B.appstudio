@@ -45,6 +45,15 @@
         "Elements", 
         "btnSignIn.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "loginPage", 
+        "Elements", 
+        "btnSignUp.json"
+      ]
     }
   ], 
   "class": "", 
