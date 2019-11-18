@@ -29,7 +29,7 @@
   "icon": "", 
   "iconTitle": "", 
   "id": "btnAddAccount", 
-  "left": 93, 
+  "left": 101, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -60,7 +60,7 @@
   "size": " btn-md", 
   "style": "", 
   "toggleControl": "", 
-  "top": 418, 
+  "top": 425, 
   "value": "Add Account", 
   "width": "auto"
 }

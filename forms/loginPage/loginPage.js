@@ -1,6 +1,6 @@
 /*
 let arrayResults = []
-
+//only running against our own database, not Creighton's to make it easier for login; you can't run it against 2 databases at the same time
 btnSignIn.onclick=function(){
     var query = "SELECT NetID, password FROM students WHERE NetID= " + '"' + inptUser.value + '"' AND password= " + '"' + inptPass.value + '"'
     req1 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ekr74869&pass=Boolarina18%&database=375groupb2&query=" + query);
@@ -18,6 +18,7 @@ btnSignIn.onclick=function(){
 }
 */
 /*
+//if the user doesn't have an account with us, then they will have to sign up
 btnSignUp.onclick=function(){
   ChangeForm(signUpPage)
 }
