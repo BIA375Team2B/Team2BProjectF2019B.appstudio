@@ -27,6 +27,69 @@
         "Elements", 
         "lblName.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inptMyNetID.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inputMyFirstName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inputMyLastName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inputMyEmail.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inptMyGradYear.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inptMyMajor.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inptMyPass1.json"
+      ]
     }
   ], 
   "class": "", 

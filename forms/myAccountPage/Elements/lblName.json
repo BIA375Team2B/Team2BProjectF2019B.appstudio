@@ -19,7 +19,7 @@
   "hidden": "", 
   "id": "lblName", 
   "labelStyle": "text", 
-  "left": 14, 
+  "left": 4, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -42,7 +42,7 @@
   "right": "auto", 
   "script": "", 
   "style": "", 
-  "top": 123, 
+  "top": 94, 
   "value": "My Account", 
   "width": 109
 }
