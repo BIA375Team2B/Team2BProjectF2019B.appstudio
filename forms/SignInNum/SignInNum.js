@@ -1,5 +1,5 @@
 //SELECT seat_id FROM seats WHERE floor=1 AND EmptyOrNot=1 AND type='SingleSeat';
-var NetID ="ekr74869"
+//var NetID ="ekr74869"
 var SeatAviableArray=[]
 SignInNum.onshow=function(){
   imgHeader2.src="https://ormond.creighton.edu/courses/375/Groups/Group-B2/images/CreightonLogo.jpg"
