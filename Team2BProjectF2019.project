@@ -21,6 +21,30 @@
             "loginPage", 
             "loginPage.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "signUpPage", 
+            "signUpPage.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "grubhubOrderPage", 
+            "grubhubOrderPage.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "myAccountPage", 
+            "myAccountPage.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -35,7 +59,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "loginPage", 
+      "firstform": "signUpPage", 
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 

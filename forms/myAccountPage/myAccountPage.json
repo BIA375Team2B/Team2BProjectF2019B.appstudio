@@ -14,45 +14,81 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "myAccountPage", 
         "Elements", 
-        "inptUser.json"
+        "imgCreightonLogo1Copy.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "myAccountPage", 
         "Elements", 
-        "inptPass.json"
+        "lblName.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "myAccountPage", 
         "Elements", 
-        "imgCreightonLogo.json"
+        "inptMyNetID.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "myAccountPage", 
         "Elements", 
-        "btnSignIn.json"
+        "inputMyFirstName.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "myAccountPage", 
         "Elements", 
-        "btnSignUp.json"
+        "inputMyLastName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inputMyEmail.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inptMyGradYear.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inptMyMajor.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "myAccountPage", 
+        "Elements", 
+        "inptMyPass1.json"
       ]
     }
   ], 
@@ -62,7 +98,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "loginPage", 
+  "id": "myAccountPage", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 

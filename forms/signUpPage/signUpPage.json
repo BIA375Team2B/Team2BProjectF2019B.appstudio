@@ -14,45 +14,81 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "signUpPage", 
         "Elements", 
-        "inptUser.json"
+        "imgCreightonLogo1.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "signUpPage", 
         "Elements", 
-        "inptPass.json"
+        "inptFirstName.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "signUpPage", 
         "Elements", 
-        "imgCreightonLogo.json"
+        "inptLastName.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "signUpPage", 
         "Elements", 
-        "btnSignIn.json"
+        "inptEmail.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "loginPage", 
+        "signUpPage", 
         "Elements", 
-        "btnSignUp.json"
+        "inptGradYear.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "inptMajor.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "btnAddAccount.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "inptNetID.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "signUpPage", 
+        "Elements", 
+        "inptPass1.json"
       ]
     }
   ], 
@@ -62,7 +98,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "loginPage", 
+  "id": "signUpPage", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
