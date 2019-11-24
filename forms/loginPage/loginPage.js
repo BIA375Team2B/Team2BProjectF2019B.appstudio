@@ -1,4 +1,4 @@
-/*
+
 let arrayResults = []
 //only running against our own database, not Creighton's to make it easier for login; you can't run it against 2 databases at the same time
 btnSignIn.onclick=function(){
@@ -16,10 +16,9 @@ btnSignIn.onclick=function(){
     } else 
       NSB.MsgBox("Error: " + req1.status)
 }
-*/
-/*
+
+
 //if the user doesn't have an account with us, then they will have to sign up
 btnSignUp.onclick=function(){
   ChangeForm(signUpPage)
 }
-*/
