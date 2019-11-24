@@ -37,14 +37,6 @@
             "grubhubOrderPage", 
             "grubhubOrderPage.json"
           ]
-        }, 
-        {
-          "!type": "External", 
-          "file": [
-            "forms", 
-            "myAccountPage", 
-            "myAccountPage.json"
-          ]
         }
       ], 
       "configxml": null, 
