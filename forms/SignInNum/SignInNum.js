@@ -1,5 +1,4 @@
 //SELECT seat_id FROM seats WHERE floor=1 AND EmptyOrNot=1 AND type='SingleSeat';
-//C19971106w
 var NetID ="ekr74869"
 var SeatAviableArray=[]
 SignInNum.onshow=function(){
