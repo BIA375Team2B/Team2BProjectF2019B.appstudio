@@ -1,5 +1,4 @@
 //let NetID ="ekr74869"
-//update again
 SignOut.onshow=function(){
   imgHeader3.src="https://ormond.creighton.edu/courses/375/Groups/Group-B2/images/CreightonLogo.jpg"
   
