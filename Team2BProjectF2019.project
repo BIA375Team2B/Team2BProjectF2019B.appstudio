@@ -18,16 +18,14 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "SignInNum", 
-            "SignInNum.json"
+
           ]
         }, 
         {
           "!type": "External", 
           "file": [
             "forms", 
-            "SignOut", 
-            "SignOut.json"
+
           ]
         }
       ], 
@@ -43,7 +41,7 @@
       "eslintRules": null, 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "SignInNum", 
+
       "fontFamily": "system", 
       "homescreenTitle": "", 
       "icon": "nsb/images/192.png", 
