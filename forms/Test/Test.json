@@ -9,42 +9,14 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "StudyReport", 
-        "Elements", 
-        "Chart1.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "StudyReport", 
-        "Elements", 
-        "drpSort.json"
-      ]
-    }, 
-    {
-      "!type": "External", 
-      "file": [
-        "forms", 
-        "StudyReport", 
-        "Elements", 
-        "btnClear.json"
-      ]
-    }
-  ], 
+  "children": [], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "StudyReport", 
+  "id": "Test", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -52,7 +24,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "StudyReport.onshow()", 
+  "onshow": "", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

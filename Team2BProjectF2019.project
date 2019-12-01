@@ -29,6 +29,14 @@
             "StudyReport", 
             "StudyReport.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Test", 
+            "Test.json"
+          ]
         }
       ], 
       "configxml": null, 

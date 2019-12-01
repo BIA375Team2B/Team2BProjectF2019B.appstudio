@@ -12,7 +12,7 @@
   "display": "", 
   "enabled": "true", 
   "expanded_pmp": null, 
-  "height": 160, 
+  "height": 271, 
   "hidden": "", 
   "id": "Chart1", 
   "left": 0, 
@@ -36,6 +36,6 @@
   "title": "", 
   "titlePadding": "{ left: 2, top: 2, right: 2, bottom: 2 }", 
   "toolTipDelay": 500, 
-  "top": 89, 
-  "width": 320
+  "top": 86, 
+  "width": 324
 }
