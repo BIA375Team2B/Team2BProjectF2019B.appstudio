@@ -133,6 +133,7 @@ $("#Chart2").jqxChart(NSB.jqxSettings["Chart2"]);
 }
 
 
+<<<<<<< Updated upstream
 
 btnClear.onclick=function(){
   drpSort.clear()
@@ -181,6 +182,68 @@ btnClearDropdown.onclick=function(){
 <<<<<<< Updated upstream
 //Retrieve Start time and end time 
  var query2 = "SELECT Start_Time, End_Time FROM record WHERE NetID= " + '"'+ netIDTest + '"'
+=======
+drpSort.onclick=function(s){
+  if (typeof(s) == "object"){  // means control clicked but no selection made yet
+                              // Didn't clicked on a choice
+    return                     // do nothing
+  } else {
+    drpSort.value = s // make dropdown show choice user made
+    
+    
+  }
+}
+
+
+btnSubmitSR.onclick=function(){
+hoursDateDayData =[]
+hoursDateMonthData =[]
+arrayTotalTimeDay=[]
+arrayTotalTimeMonth=[]
+  if ( drpSort.value=="Month"){
+   var query3 = "SELECT time, month FROM record_date_month WHERE NetID= " + '"'+ netIDTest + '"'
+    req4 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=mye34781&pass=Tennis382006&database=375groupb2&query=" + query3);
+    if (req4.status == 200) {
+        arrayTotalTimeMonth = JSON.parse(req4.responseText)
+    } else 
+      NSB.MsgBox("Error: " + req4.status)
+  
+  
+  for (i=0;i<arrayTotalTimeMonth.length;i++){
+  hoursDateMonthData.push({
+    Month: arrayTotalTimeMonth[i][1],
+    Time:arrayTotalTimeMonth[i][0]
+  })}
+
+  NSB.jqxSettings["Chart1"].title = "Time spent in the library by day"
+  //NSB.jqxSettings["Chart1"].source = hoursDateDayData;
+  NSB.jqxSettings["Chart1"].source = hoursDateMonthData;
+  NSB.jqxSettings["Chart1"].xAxis={dataField:"Month" , showGridLines:false};
+  NSB.jqxSettings["Chart1"].seriesGroups =        [
+            {
+                type: 'column',
+               
+                columnsGapPercent: 20,
+                seriesGapPercent: 0,
+                valueAxis:
+                {
+                    minValue: 0,
+                    maxValue: 35,
+                    unitInterval: 5,
+                    description: 'Time in hours'
+                },
+                series: [
+                        { dataField: 'Time', displayText: 'Time'},
+                      
+                    ]
+            }
+        ]
+        
+$("#Chart1").jqxChart(NSB.jqxSettings["Chart1"]);
+}
+else if (drpSort.value=="Day"){
+   var query2 = "SELECT (time/3600), date FROM record_date WHERE NetID= " + '"'+ netIDTest + '"'
+>>>>>>> Stashed changes
     req3 = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=mye34781&pass=Tennis382006&database=375groupb2&query=" + query2);
     if (req3.status == 200) {
         arrayTime = JSON.parse(req3.responseText)

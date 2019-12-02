@@ -9,7 +9,21 @@
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
+<<<<<<< Updated upstream:forms/Test/Test.json
   "children": [], 
+=======
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "LibraryReport", 
+        "Elements", 
+        "Chart2.json"
+      ]
+    }
+  ], 
+>>>>>>> Stashed changes:forms/LibraryReport/LibraryReport.json
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
