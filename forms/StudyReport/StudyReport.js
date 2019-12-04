@@ -1,16 +1,8 @@
 /*
 THINGS TO DO:
 - Retrieve NetID from Lizzie's form. 
-- By week ? 
+- Library report
 
-Problems:
-- Remove NaN before the date.
-- By day, not in order (because of the NaN)
-
-
-Solutions:
-- Change String Date into Date Date
-- User enters the date. Ex: "2019-12-20"
 */
 
 
@@ -83,14 +75,49 @@ let query6 = "SELECT * FROM record_date_week WHERE NetID= " + '"'+ netIDTest + '
 console.log(arrayWeekTotal)
 
     for (i=0;i<arrayWeekTotal.length;i++){
+      switch(arrayWeekTotal[i][4]){
+  case 0:
+    arrayWeekTotal[i][4] = "Mon";
+    break;
+    
+     case 1:
+    arrayWeekTotal[i][4] = "Tue";
+    break;
+    
+     case 2:
+    arrayWeekTotal[i][4]= "Wed";
+    break;
+    
+     case 3:
+    arrayWeekTotal[i][4] = "Thu";
+    break;
+    
+    
+     case 4:
+    arrayWeekTotal[i][4] = "Fri";
+    break;
+    
+    
+     case 5:
+    arrayWeekTotal[i][4] = "Sat";
+    break;
+    
+     case 6:
+    arrayWeekTotal[i][4] = "Sun";
+   
+    }
   hoursDateWeekData.push({
     Day: arrayWeekTotal[i][4], 
     Time:(arrayWeekTotal[i][1]/3600)
   })
+  
+  
+  
 }
 
-console.log(arrayTotalTimeDay)
-console.log(hoursDateDayData)
+  
+
+
 
   NSB.jqxSettings["Chart1"].title = "Time spent in the library for this week"
   NSB.jqxSettings["Chart1"].source = hoursDateWeekData;
@@ -139,6 +166,62 @@ arrayTotalTimeMonth=[]
   
   
   for (i=0;i<arrayTotalTimeMonth.length;i++){
+    
+    switch(arrayTotalTimeMonth[i][1]){
+
+     case 1:
+    arrayTotalTimeMonth[i][1] = "Jan";
+    break;
+    
+     case 2:
+    arrayTotalTimeMonth[i][1]= "Feb";
+    break;
+    
+     case 3:
+    arrayTotalTimeMonth[i][1] = "Mar";
+    break;
+    
+    
+     case 4:
+    arrayTotalTimeMonth[i][1] = "Apr";
+    break;
+    
+    
+     case 5:
+    arrayTotalTimeMonth[i][1] = "May";
+    break;
+    
+     case 6:
+    arrayTotalTimeMonth[i][1] = "June";
+    break;
+    
+    case 7:
+    arrayTotalTimeMonth[i][1] = "July";
+    break;
+    
+    
+     case 8:
+    arrayTotalTimeMonth[i][1] = "Aug";
+    break;
+    
+     case 9:
+    arrayTotalTimeMonth[i][1] = "Sept";
+    break;
+    
+    case 10:
+    arrayTotalTimeMonth[i][1] = "Oct";
+    break;
+    
+    
+     case 11:
+    arrayTotalTimeMonth[i][1] = "Nov";
+    break;
+    
+     case 12:
+    arrayTotalTimeMonth[i][1] = "Dec";
+    
+    }
+  
   hoursDateMonthData.push({
     Month: arrayTotalTimeMonth[i][1],
     Time:arrayTotalTimeMonth[i][0]
@@ -166,7 +249,7 @@ arrayTotalTimeMonth=[]
                     ]
             }
         ]
-        
+console.log(arrayTotalTimeMonth)
 $("#Chart1").jqxChart(NSB.jqxSettings["Chart1"]);
 }
 else if (drpSort.value=="Day"){

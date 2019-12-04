@@ -32,7 +32,7 @@
   "icon": "caret", 
   "id": "drpSort", 
   "items": "!Heading\nItem 1\nItem 2\n-\n*Item 3 (disabled)", 
-  "left": 41, 
+  "left": 5, 
   "mAll": "", 
   "mBottom": "", 
   "mLeft": "", 
@@ -62,7 +62,7 @@
   "script": "", 
   "size": " btn-md", 
   "style": "", 
-  "top": 370, 
+  "top": 368, 
   "value": "Sort by", 
   "width": "auto"
 }
