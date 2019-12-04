@@ -34,11 +34,25 @@
         "forms", 
         "StudyReport", 
         "Elements", 
-<<<<<<< Updated upstream
-        "btnClear.json"
-=======
         "btnSubmitSR.json"
->>>>>>> Stashed changes
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "StudyReport", 
+        "Elements", 
+        "inptDate.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "StudyReport", 
+        "Elements", 
+        "btnSearch.json"
       ]
     }
   ], 

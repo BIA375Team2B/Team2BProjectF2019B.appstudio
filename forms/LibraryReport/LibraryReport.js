@@ -2,6 +2,7 @@
  From record_date, I compute the average time spent per student per day to see how busy the library is every day. 
  I have the date but I do'nt know if it's a monday, friday,...
  */
+ /*
  let arrayAvgTimeDay = []
  let avgTimeData =[]
  
@@ -50,3 +51,4 @@ LibraryReport.onshow=function(){
         
 $("#Chart2").jqxChart(NSB.jqxSettings["Chart2"]);
 }
+*/

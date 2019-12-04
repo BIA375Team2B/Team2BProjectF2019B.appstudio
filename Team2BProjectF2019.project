@@ -34,8 +34,8 @@
           "!type": "External", 
           "file": [
             "forms", 
-            "Test", 
-            "Test.json"
+            "LibraryReport", 
+            "LibraryReport.json"
           ]
         }
       ], 
